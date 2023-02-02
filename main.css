@@ -118,10 +118,12 @@ footer li img {
     bottom: 10px;
 }
 
+
 @media screen and (max-width: 767px) {
     .container, img {
         height: 150px;
         margin: 15px;
+        left: 48px;
     
 }
 .container {
@@ -136,6 +138,7 @@ p {
     position: relative;
     font-size:14px;
     right:23px;
+    justify-content: space-between;
 }
 
 nav {
@@ -152,7 +155,7 @@ nav {
 #marcas img {
     position: relative;
     display:block;
-    left: 99px;
+    left: 124px;
     top: 150px;
     align-items: center;
 }
@@ -176,16 +179,98 @@ h4{
 
 footer {
     background-color:blue;
-    padding: 5 10px;
     color: white;
     position: relative;
-    width: 100%;
-    font-size: 8px;
     top: 200px;
+    height: 100px;
+    width: 250%;
+    align-items: center;
+}
+
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        background-color:rgb(15, 15, 178);
+        padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+        width: 150%;
+    }
+
+    .container, img {
+        height: 100%;
+        margin: 15px;
+        position: relative;
+        right: 10px;
+        font-size: 100px;
+        width:100%;
+}
+
+.container, p {
+    display: block;
+    font-size: 30px;
+    position: relative;
+}
+
+#marcas img {
+    position: relative;
+    display:block;
+    font-size: 100px;
+    width: 600px;
+    left: 150px;
+    height: 300px;
+    top: 130px;
+}
 
 
+.lista-veiculos {
+    display: inline-block;
+    position: relative;
+    font-size: 60px;
+    bottom: 10px;
+}
+
+.menu {
+    position: relative;
+    right: 270px;
+
+}
+
+#automoveis img {
+    margin: 15px;
+    height: 300px;
+    display:block;
+    position: relative;
+}
+
+strong {
+    font-size: 25px;
+}
+
+#automoveis button {
+    color: black;
+    background-color: blue;
+    display: block;
+    width: 25%;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#automoveis h2 {
+    color: blue;
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 30px;
+    position: relative;
+    bottom:1150px;
+    left: 30px;
+}
 
 }
