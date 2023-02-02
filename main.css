@@ -1,0 +1,168 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav {
+    background-color:rgb(15, 15, 178);
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+h1, p {
+    color: black;
+}
+
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 20px;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 12px;
+}
+
+li:hover, h1:hover, button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+h3 {
+    align-items: center;
+    display: flex;
+    font-style: italic;
+    margin: 15px;
+    
+}
+
+    .container, img {
+        height: 300px;
+        margin: 15px;
+    
+}
+
+.container, p {
+    display: flex;
+}
+
+#marcas img {
+    position: relative;
+    font-size: 0;
+    display: inline-block;
+    height: 100px;
+    left: 525px;
+    bottom: 159px;
+}
+
+#automoveis img {
+    font-weight: 90px;
+    margin: 15px;
+    height: 100px;
+    display: inline-block;
+}
+
+#automoveis {
+    list-style: none;
+    font-size: 10px;
+    position: relative;
+    bottom: 100px;
+}
+
+#automoveis button {
+    color: black;
+    background-color: blue;
+    display: block;
+    width: 25%;
+    padding: 8px 0;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#automoveis h2 {
+    color: blue;
+}
+
+
+footer {
+    background-color:blue;
+    padding-top: 16px;
+    color: white;
+    position: relative;
+    top: 15px;
+}
+footer li img {
+    height: 32px;
+    position: relative;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .container, img {
+        height: 150px;
+        margin: 15px;
+    
+}
+.container, p {
+    display:block;
+    font-size: 10px;
+    position: relative;
+    right: 5px;
+}
+
+nav {
+    background-color:rgb(15, 15, 178);
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 100px;
+}
+
+
+#marcas img {
+    position: relative;
+    display:block;
+    left: 90px;
+    top: 100px;
+    align-items: center;
+}
+
+
+.lista-veiculos {
+    display: block;
+    position: relative;
+    top: 10px;
+}
+
+#automoveis {
+    list-style: none;
+    font-size: 10px;
+    position: relative;
+    top: 100px;
+}
+
+
+}
