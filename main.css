@@ -124,11 +124,19 @@ footer li img {
         margin: 15px;
     
 }
-.container, p {
+.container {
     display:block;
     font-size: 10px;
     position: relative;
-    right: 5px;
+    right: 50px;
+    left: 30px ;
+}
+
+p {
+    position: relative;
+    right: 50px;
+    left: 20px ;
+    font-size: 50;
 }
 
 nav {
@@ -145,7 +153,7 @@ nav {
 #marcas img {
     position: relative;
     display:block;
-    left: 90px;
+    left: 125px;
     top: 100px;
     align-items: center;
 }
@@ -155,6 +163,7 @@ nav {
     display: block;
     position: relative;
     top: 10px;
+    right: 10px;
 }
 
 #automoveis {
@@ -164,5 +173,13 @@ nav {
     top: 100px;
 }
 
+footer {
+    background-color:blue;
+    padding-top: 16px;
+    color: white;
+    position: relative;
+    top: 15px;
+    width: 100%;
+}
 
 }
