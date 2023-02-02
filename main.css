@@ -120,6 +120,7 @@ footer li img {
 
 
 @media screen and (max-width: 767px) {
+    
     .container, img {
         height: 150px;
         margin: 15px;
@@ -186,6 +187,14 @@ footer {
     width: 250%;
     align-items: center;
 }
+
+.menu {
+    position: relative;
+    right: 570px;
+    display: block;
+}
+
+
 
 }
 
